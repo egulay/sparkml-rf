@@ -25,7 +25,7 @@ object Program {
 
     SparkUtil.printExecutionTime(runRandomForest())
 
-//    SparkUtil.session.close()
+    SparkUtil.session.close()
   }
 
   def runRandomForest(): Unit = {
